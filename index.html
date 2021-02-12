@@ -4,43 +4,68 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+  integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css" type="text/css">
   <title>Members Welfare</title>
   
 </head>
 <body>
-  <header>
-    <h2><a href="#">Sapphire</a></h2>
-    <nav>
+  <section class="showcase">
+    <header>
+       <h2 class="logo">Worship</h2>
+      
+         <h2 class="toggle"></h2>
+        </header>
+
+           <video src="worship.mp4" muted loop autoplay></video>  
+
+            <div class="overlay"></div>
+            
+            <div class="text">
+              <h2>Never Stop</h2>
+              <h3>Thanking The Owner</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ratione Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ratione?</p>
+              <a href="#">View More</a>
+            </div>
+
+            <ul class="social">
+              <li><a href=""><img src="https://i.ibb.co/x7P24fL/facebook.png" alt="facebook"></a></li>
+              <li><a href=""></a><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" alt="twitter"></a></li>
+              <li><a href=""></a><img src="https://i.ibb.co/ySwtH4B/instagram.png" alt="instagram"></a></li>
+            </ul>
+
+
+  </section>
+  
+  <div class="menu">
+    <ul>
       <li><a href="#">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </nav>
-  </header>
-  <section>
-<ul class="test">
-  <h1>PASTOR BUNMIS LIST</h1>
-</br>
- <li><a  href="tel://+19293558730"> <i class="fas fa-phone">Femi Aremu</i></a></li>
-</br> 
+      <li><a href="bunmiAdisa.html">Bunmi Adisa</a></li>
+      <li><a href="teniOjuolape.html">Teni Ojuolape</a></li>
+      <li><a href="boladeSobola.html">Bolade Sobola</a></li>
 
- <li><a href="tel://+13473938063"><i class="fas fa-phone">Kris Williams</i></a>
- </li> 
-</br> 
-<li><a href="tel://+13012567646"><i class="fas fa-phone">Dammy Olu-Ayeni</i></a></li>
-</br> 
-<li>   <a href="tel://+16469824777"><i class="fas fa-phone">Pastor Bolade</i></a>
-</li> 
-</br> 
-<li>   <a href="tel://+13473690646"><i class="fas fa-phone">Pastor Teni</i></a>
-</li>
-</br> 
-<li>   <a href="tel://+16466621454"><i class="fas fa-phone">Pastor Kayode</i></a>
-</li>
+      <li><a href="solaAdisa.html">Sola Adisa</a></li>
+      <li><a href="bukkySobola.html">Bukky Sobola</a></li>
+      <li><a href="bunmiOlajide.html">Bunmi Olajide</a></li>
 
-</ul>
-</section>
+      <li><a href="dammyOluAyeni.html">Damilola Olu-Ayeni</a></li>
+      <li><a href="kayodeAgbabiaka.html">Kayode Agbabiaka</a></li>
+      <li><a href="danielleOkoro.html">Danielle Okoro</a></li>
+      <li><a href="bunmiSonde.html">Bunmi Sonde</a></li>
+    </ul>
+  </div>
+  <script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active')
+      showcase.classList.toggle('active')
+    })
+  </script>
 </body>
 </html>
