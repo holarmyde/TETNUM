@@ -377,6 +377,45 @@ p {
   .show {
     padding: 60px;
     white-space: nowrap;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+
+  .forList {
+    margin-right: 20px;
+    transform: scale(0.7);
+    transition: 0.5s;
+  }
+
+  .text h2 {
+    font-size: 3em;
+  }
+  .arrowplace {
+    padding: 0%;
+  }
+
+  .arrow:hover {
+    color: rgba(241, 43, 8, 0.904) !important;
+  }
+
+  .arrowplace:hover {
+    color: rgba(241, 43, 8, 0.904) !important;
+  }
+
+  .text h3 {
+    font-size: 2em;
+  }
+}
+/*
+@media (max-width: 560px) {
+  .showcase,
+  .showcase header {
+    padding: 40px;
+  }
+
+  .show {
+    padding: 60px;
+    white-space: nowrap;
     position: fixed;
   }
 
@@ -410,6 +449,10 @@ p {
     font-size: 2em;
   }
 }
+
+@media (max-height: 560px) {
+}
+*/
 
 /*FOR EACH OF THE MINISTERS*/
 
